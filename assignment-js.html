@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Assignment JS</title>
+<style type="text/css">
+body{padding:0; background:#ccc;font:400 14px "Century Gothic",Helvetica,sans-serif;color:#000;width:100%;}
+.header-nav{height: 60px; padding: 0px; background:#666;}
+a{cursor:pointer;}
+ul.headermenu{list-style:none; padding:10px;margin:1px auto 0;width:100%;height:32px;background:#666;}
+ul.headermenu li{float:left; border-right:solid 1px #fff; text-align:center;list-style:none;text-decoration:none;display:block;position:relative;z-index:500; padding:0} /* float:left; --> To Align List Items Horizontal */
+ul.headermenu li a{display:block;padding:5px;color:#fff;text-decoration:none;font-size:16px; line-height:30px;}
+ul.headermenu li a:hover{display:block;padding:5px;color:#fff;text-decoration:none;font-size:16px; line-height:30px; border:solid 1px #fff; border-bottom:none;}
+ul.headermenu li:last-child {border: none;} /* li:last-child; --> To Remove the border for last list item */
+ul.headermenu li ul{display:none;position:absolute;top:32px;left:0;width:182px;padding:0;margin:0;border-top:solid 1px #fff;}
+ul.headermenu li:hover ul{display:block;background:#666;color:#FFF}
+ul.headermenu li:hover ul a{display:block;background:#666;color:#FFF;padding:5px; width:170px;font-size:12px;text-align:left;border-bottom:solid 1px #fff;}
+ul.headermenu li:hover ul a:hover{color:#fff;}
+ul.headermenu li:hover ul li ul{display:none;}
+ul.headermenu li:hover ul li:hover ul{display:block;position:absolute;top:0;left:183px;width:182px;padding:0;margin:0;}
+ul.headermenu li:hover ul li:hover ul li{display:block;top:0;width:182px;vertical-align:bottom;min-height:22px;padding:5px;margin:0;background-color:#201D1D;border-bottom:solid 1px #fff}
+ul.headermenu li:hover ul li:hover ul li a{display:block;background:#201D1D;color:#fff;border-bottom:none;}
+ul.headermenu li:hover ul li:hover ul li a:hover{color:#FFF;}
+</style>
+</head>
+<body>
+	<div class="header-nav">
+       <ul class="headermenu">
+                <li><a >Electronics</a>
+                    <ul>
+                        <li><a >Mobile Accessories</a>
+                            <ul >
+                                <li><a >Back Cases</a></li>
+                                <li><a >Screenguards</a></li>
+                                <li><a >Cables</a></li>
+                                <li><a >Ear Phones</a></li>
+                            </ul>
+                        </li>
+                        <li><a >Mobiles</a>
+                            <ul >
+                                <li><a >Apple</a></li>
+                                <li><a >Samsung</a></li>
+                                <li><a >Sony</a></li>
+                                <li><a >LG</a></li>
+                                <li><a >MOTOROLA</a></li>
+                            </ul>
+                        </li>
+                        <li><a >Watches</a></li>                            
+                    </ul> 
+                </li>
+                <li><a >Appliances</a>
+                    <ul>
+                        <li><a >Washing Machines</a></li>
+                        <li><a >Televisions</a>
+                            <ul >
+                                <li><a >Sony</a></li>
+                                <li><a >Samsung</a></li>
+                                <li><a >LG</a></li>
+                                <li><a >Hisense</a></li>
+                            </ul>
+                        </li>
+                        <li><a >Refrigerators</a></li>
+                        <li><a >Air conditioners</a></li>
+                        <li><a >Small home appliances</a></li>
+                        <li><a >Health care appliances</a></li>
+                    </ul> 
+                </li>
+                <li><a >Baby & Kids</a></li>
+                <li><a >Home & Furniture</a></li>
+                <li><a >Books</a> </li>                    
+                <li><a >Gaming & Accessories</a> </li>            					
+            </ul>
+    </div>
+</body>
+</html>
